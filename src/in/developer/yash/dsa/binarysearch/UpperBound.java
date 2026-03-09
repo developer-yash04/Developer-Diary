@@ -5,7 +5,7 @@ public class UpperBound {
 // UpperBound condition ==>> arr[Index] > Target
 	
 	public int upperBound(int[] nums, int target) {
-		int left = 0, right = nums.length-1, ans = -1;
+		int left = 0, right = nums.length-1, ans = nums.length;
 		
 		while(left <= right) {
 			int mid = left + (right - left)/2;

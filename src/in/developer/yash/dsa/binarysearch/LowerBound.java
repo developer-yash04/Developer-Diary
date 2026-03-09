@@ -6,7 +6,7 @@ public class LowerBound {
 	
 	public int lowerBound(int[] nums, int target) {
 		
-		int left = 0, right = nums.length -1, ans = -1;
+		int left = 0, right = nums.length -1, ans = nums.length;
 		
 		while(left <= right) {
 			int mid = left + (right - left)/2;
