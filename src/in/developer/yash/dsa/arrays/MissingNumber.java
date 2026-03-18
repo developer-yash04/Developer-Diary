@@ -1,0 +1,10 @@
+package in.developer.yash.dsa.arrays;
+
+public class MissingNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
