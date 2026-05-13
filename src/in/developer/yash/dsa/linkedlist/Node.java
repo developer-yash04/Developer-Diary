@@ -1,0 +1,17 @@
+package in.developer.yash.dsa.linkedlist;
+
+public class Node {
+	int data;
+	Node next;
+		
+	public Node(int data) {
+		this.data = data;
+		this.next = null;
+	}
+	
+	public Node(int data,Node next1) {
+		this.data = data;
+		this.next = next1;
+	}
+	
+}
